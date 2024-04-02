@@ -87,7 +87,7 @@ evmchains.forEach((chain: ChainType): void => {
 // })
 
 // POST request for sending tokens or coins
-router.post('/sendToken', async (req: any, res: any) => {
+router.post('/sendToken',captcha.middleware, async (req: any, res: any) => {
     const address: string = req.body?.address
     const chain: string = req.body?.chain
     const erc20: string | undefined = req.body?.erc20
