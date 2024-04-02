@@ -11,12 +11,12 @@
     },
     "evmchains": [
         {
-            "ID": "evmos",
+            "ID": "fomo",
             "NAME": "evmos-testnet (Action-Chain)",
             "TOKEN": "aevmos",
-            "RPC": "http://192.168.0.1:8545",
-            "CHAINID": 9000,
-            "EXPLORER": "",
+            "RPC": "https://rpc1.testnet.fomochain.io",
+            "CHAINID": 1,
+            "EXPLORER": "https://testnet.evm.fomoscan.io",
             "IMAGE": "../../../faucet-icon-dark.svg",
             "MAX_PRIORITY_FEE": "2000000000",
             "MAX_FEE": "100000000000",
@@ -26,7 +26,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "NETWORK":"evmos"
+            "NETWORK":"fomo"
         }
     ],
     "erc20tokens": [
