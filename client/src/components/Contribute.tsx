@@ -13,7 +13,7 @@ const Contribute = () => {
             className = {`contribute-button ${hiddenClass}`}
             onClick={
                 () => {
-                    window.open('https://github.com/dcomm-tech/DComm-faucet', '_blank')
+                    window.open('about:blank', '_blank')
                 }
             }>
             <img alt='github' src="/github.png"/>
