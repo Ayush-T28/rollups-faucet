@@ -531,7 +531,7 @@ const FaucetForm = (props: any) => {
                             <p className='rate-limit-text'>
                                 <a
                                     target = {'_blank'}
-                                    href = {chainConfigs[token!]?.EXPLORER + '/evmtx/' + sendTokenResponse?.txHash + '/network=' + chainConfigs[token!]?.NETWORK}
+                                    href = {chainConfigs[token!]?.EXPLORER + '/tx/' + sendTokenResponse?.txHash}
                                     rel = "noreferrer"
                                 >
                                     {sendTokenResponse?.txHash}

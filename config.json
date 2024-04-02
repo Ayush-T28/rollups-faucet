@@ -12,8 +12,8 @@
     "evmchains": [
         {
             "ID": "fomo",
-            "NAME": "evmos-testnet (Action-Chain)",
-            "TOKEN": "aevmos",
+            "NAME": "fomo-testnet (Action-Chain)",
+            "TOKEN": "fomo",
             "RPC": "https://rpc1.testnet.fomochain.io",
             "CHAINID": 1,
             "EXPLORER": "https://testnet.evm.fomoscan.io",
