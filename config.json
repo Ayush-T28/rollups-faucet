@@ -11,9 +11,9 @@
     },
     "evmchains": [
         {
-            "ID": "fomo",
-            "NAME": "fomo-testnet (Action-Chain)",
-            "TOKEN": "fomo",
+            "ID": "fomo-testnet",
+            "NAME": "FOMO Testnet",
+            "TOKEN": "FOMO",
             "RPC": "https://rpc1.testnet.fomochain.io",
             "CHAINID": 1,
             "EXPLORER": "https://testnet.evm.fomoscan.io",
@@ -26,7 +26,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "NETWORK":"fomo"
+            "NETWORK":"FOMO"
         }
     ],
     "erc20tokens": [
