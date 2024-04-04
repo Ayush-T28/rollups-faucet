@@ -20,7 +20,7 @@ const initialState: Context = {
 
 export const ThemeContext = createContext(initialState);
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
@@ -29,7 +29,7 @@ function App() {
       <div className="app" id={theme}>
         <FaucetForm axios={axios} config={config} />
         {/*<Contribute /> */}
-        <ToggleTheme theme={theme} setTheme={toggleTheme} />
+{/*         <ToggleTheme theme={theme} setTheme={toggleTheme} /> */}
       </div>
     </ThemeContext.Provider>
   );
