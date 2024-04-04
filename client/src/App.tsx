@@ -28,7 +28,7 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="app" id={theme}>
         <FaucetForm axios={axios} config={config} />
-        <Contribute />
+        {/*<Contribute /> */}
         <ToggleTheme theme={theme} setTheme={toggleTheme} />
       </div>
     </ThemeContext.Provider>
