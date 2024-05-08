@@ -100,9 +100,9 @@
 }
 
 .beta-alert {
-    color: #ff5252;
+    color: #ff0000;
     font-size: 14px;
-    border: thin #ff5252 solid;
+    border: thin #ff0000 solid;
     text-align: center;
     border-radius: 4px;
     margin-top: 20px;

@@ -11,9 +11,9 @@
     },
     "evmchains": [
         {
-            "ID": "fomo-testnet",
-            "NAME": "FOMO Testnet",
-            "TOKEN": "FOMO",
+            "ID": "lumis-testnet",
+            "NAME": "LUMIA Testnet",
+            "TOKEN": "LUMIA",
             "RPC": "https://rpc1.testnet.fomochain.io",
             "CHAINID": 1,
             "EXPLORER": "https://testnet.evm.fomoscan.io",
@@ -26,7 +26,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "NETWORK":"FOMO"
+            "NETWORK":"LUMIA"
         }
     ],
     "erc20tokens": [
