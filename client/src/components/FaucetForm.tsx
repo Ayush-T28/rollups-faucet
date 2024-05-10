@@ -364,7 +364,7 @@ const FaucetForm = (props: any) => {
             ...base,
             borderRadius: 0,
             marginTop: 0,
-            background: "#ffffff",
+            background: "#1b1832",
             color: "grey"
         }),
         menuList: (base: any) => ({

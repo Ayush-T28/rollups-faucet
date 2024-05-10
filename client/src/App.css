@@ -29,7 +29,7 @@ body, html {
 }
 
 #dark {
-    background: #221e3f;
+    background: #1b1832;
 }
 
 #light .box, #light .footer-box {
@@ -50,11 +50,12 @@ body, html {
 
 #light .return-address, #light .address-input, #light .add-network, #light .send-button-disabled, #light .back-button, #light .contribute-button, #light .send-button, #light .react-select__control{
     background-color: #fff;
-    border: solid 1px #e55eaf;
+    border: solid 1px #fe68c2;
 }
 
 #dark .return-address, #dark .address-input, #dark .add-network, #dark .send-button-disabled, #dark .back-button, #dark .contribute-button, #dark .send-button, #dark .react-select__control {
-    border: solid 1px #e55eaf;
+    border: solid 1px #fe68c2;
+    background-color: #1b1832;
 }
 
 #light .copy-icon {
