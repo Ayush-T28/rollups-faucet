@@ -62,7 +62,7 @@ export default function AddNetwork(props: any) {
             </button>
 
             <button className="add-network font" onClick={() => {window.open(`${props.config.EXPLORER}`, '_blank')}}>
-                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src="/faucet-icon-dark.svg"/>
+                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src="/faucet-icon-dark.png"/>
                 View Block Explorer
             </button>
 

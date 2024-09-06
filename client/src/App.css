@@ -29,7 +29,7 @@ body, html {
 }
 
 #dark {
-    background: #1b1832;
+    background: #000000;
 }
 
 #light .box, #light .footer-box {
@@ -37,7 +37,7 @@ body, html {
 }
 
 #dark .box, #dark .footer-box {
-    background-color: #100e1f;
+    background-color: rgb(2, 3, 129);
 }
 
 #light .banner {
@@ -45,16 +45,16 @@ body, html {
 }
 
 #dark .banner {
-    background-image: url(../public/banner_dark.svg);
+    background-image: url(../public/banner_dark.png);
 }
 
 #light .return-address, #light .address-input, #light .add-network, #light .send-button-disabled, #light .back-button, #light .contribute-button, #light .send-button, #light .react-select__control{
     background-color: #fff;
-    border: solid 1px #fe68c2;
+    /* border: solid 1px rgb(2, 3, 129); */
 }
 
 #dark .return-address, #dark .address-input, #dark .add-network, #dark .send-button-disabled, #dark .back-button, #dark .contribute-button, #dark .send-button, #dark .react-select__control {
-    border: solid 1px #fe68c2;
+    /* border: solid 1px #fe68c2; */
     background-color: #1b1832;
 }
 
@@ -63,7 +63,7 @@ body, html {
 }
 
 #dark .copy-icon {
-    content: url(../public/copy_light.png);
+    content: url(../public/copy_dark.png);
 }
 
 #light .font, #light .back-button, #light a, #light .contribute-button, #light .address-input > input, #light .send-button, #light .react-select__single-value {

@@ -12,12 +12,12 @@
     "evmchains": [
         {
             "ID": "lumis-testnet",
-            "NAME": "LUMIA Testnet",
-            "TOKEN": "LUMIA",
+            "NAME": "Zeeve Testnet",
+            "TOKEN": "Zeeve",
             "RPC": "https://rpc1.testnet.fomochain.io",
             "CHAINID": 1,
             "EXPLORER": "https://testnet.evm.fomoscan.io",
-            "IMAGE": "../../../faucet-icon-dark.svg",
+            "IMAGE": "../../../faucet-icon-dark.png",
             "MAX_PRIORITY_FEE": "2000000000",
             "MAX_FEE": "100000000000",
             "DRIP_AMOUNT": 2000000000,
@@ -26,7 +26,7 @@
                 "MAX_LIMIT": 1,
                 "WINDOW_SIZE": 1440
             },
-            "NETWORK":"LUMIA"
+            "NETWORK":"Zeeve"
         }
     ],
     "erc20tokens": [

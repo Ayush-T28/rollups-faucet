@@ -130,7 +130,7 @@ You can create a faucet server for any EVM chain by making changes in the `confi
             "RPC": "http://dcomm-validators.testnet.zeeve.net/ext/bc/ACT/rpc",
             "CHAINID": 5002,
             "EXPLORER": "http://dcomm-explorer.testnet.zeeve.net",
-            "IMAGE": "../../../faucet-icon-dark.svg",
+            "IMAGE": "../../../faucet-icon-dark.png",
             "MAX_PRIORITY_FEE": "2000000000",
             "MAX_FEE": "100000000000",
             "DRIP_AMOUNT": 2000000000,
