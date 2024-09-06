@@ -1,0 +1,49 @@
+.toggle-theme-icon {
+  position: fixed;
+  top: 33px;
+  right: 250px;
+  padding: 10px;
+  cursor: pointer;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+}
+
+.toggle-theme-icon > img {
+  max-height: 18px;
+}
+
+@media screen and (max-width: 1010px) {
+  #light .toggle-theme-icon {
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    top: auto;
+    bottom: 70px;
+    left: -10px;
+    background-color: #7a66f4;
+    opacity: 0.8;
+    border-radius: 15px;
+  }
+
+  #dark .toggle-theme-icon {
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    top: auto;
+    bottom: 70px;
+    left: -10px;
+    background-color: #7a66f4;
+    opacity: 0.8;
+    border-radius: 15px;
+  }
+
+  .toggle-theme-icon > img {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+
+}
