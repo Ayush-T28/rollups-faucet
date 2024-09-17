@@ -35,9 +35,9 @@
 .banner {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 340px;
+    background-size: 128px;
     border-radius: 8px;
-    height: 140px;
+    height: 128px;
 }
 
 .card-title {
