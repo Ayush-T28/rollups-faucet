@@ -268,9 +268,14 @@ export default class EVM {
         nonce: number | undefined,
         id?: string
     ): Promise<any> {
+        const gasLimit = await this.web3.eth.estimateGas({
+                to,
+                value,
+                from: this.account.address,
+            });
         const tx: any = {
             type: 2,
-            gas: "21000",
+            gas: gasLimit.toString(),
             nonce,
             to,
             maxPriorityFeePerGas: this.MAX_PRIORITY_FEE,
