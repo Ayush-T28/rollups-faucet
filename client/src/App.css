@@ -1,3 +1,9 @@
+:root {
+    --banner-dark-logo: url(../public/banner_dark.png);
+    --primary-color: #3498db; /* Default if JS doesn't set it */
+    --secondary-color: #5eff00;
+}
+
 body::-webkit-scrollbar {
     width: 2px;
 }
@@ -29,7 +35,7 @@ body, html {
 }
 
 #dark {
-    background: #000000;
+    background: var(--primary-color);
 }
 
 #light .box, #light .footer-box {
@@ -37,7 +43,7 @@ body, html {
 }
 
 #dark .box, #dark .footer-box {
-    background-color: rgb(2, 3, 129);
+    background-color: var(--secondary-color);
 }
 
 #light .banner {
@@ -45,7 +51,7 @@ body, html {
 }
 
 #dark .banner {
-    background-image: url(../public/banner_dark.png);
+    background-image: var(--banner-dark-logo);
 }
 
 #light .return-address, #light .address-input, #light .add-network, #light .send-button-disabled, #light .back-button, #light .contribute-button, #light .send-button, #light .react-select__control{

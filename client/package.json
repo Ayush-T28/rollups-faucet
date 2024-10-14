@@ -20,7 +20,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "build": "BUILD_PATH='../build/client' react-scripts build",
+    "generate-html": "node generateHtml.js",
+    "build": "npm run generate-html && BUILD_PATH='../build/client' react-scripts build",
     "dev": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
