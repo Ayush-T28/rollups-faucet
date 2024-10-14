@@ -4,6 +4,7 @@ import ToggleTheme from "./components/ToggleTheme";
 
 import axios, { config } from "./configure";
 import "./App.css";
+import "./styleConfig";
 
 import { createContext, useState, SetStateAction, Dispatch } from "react";
 type Context = {

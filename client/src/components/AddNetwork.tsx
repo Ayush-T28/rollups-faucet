@@ -1,3 +1,4 @@
+import { getConfig } from "../config"
 declare global {
     interface Window {
         ethereum: any
@@ -54,6 +55,7 @@ const addAsset = async (config: any): Promise<void> => {
 }
 
 export default function AddNetwork(props: any) {
+    const config = getConfig();
     return (
         <div className='footer-buttons'>
             <button className="add-network font" onClick={() => {addNetwork(props.config)}}>
@@ -62,7 +64,7 @@ export default function AddNetwork(props: any) {
             </button>
 
             <button className="add-network font" onClick={() => {window.open(`${props.config.EXPLORER}`, '_blank')}}>
-                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src="/faucet-icon-dark.png"/>
+                <img alt="block-explorer" style={{width: "25px", height: "25px"}} src={config.brand.favicon ?? "/faucet-icon-dark.png"}/>
                 View Block Explorer
             </button>
 
